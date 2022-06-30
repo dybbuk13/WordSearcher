@@ -1,4 +1,6 @@
-﻿namespace WordSearcher
+﻿using System.Net;
+
+namespace WordSearcher
 {
     internal class Program
     {
@@ -16,7 +18,7 @@
                     i++;
                 }
             }
-            Console.WriteLine(testWord + " showed up " + i + " times!");
+            Console.WriteLine(testWord + " showed up " + i + " times!!");
         }
     }
 }
